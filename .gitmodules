@@ -13,3 +13,6 @@
 [submodule "Submodules/evernote-ios-sdk"]
 	path = Submodules/evernote-ios-sdk
 	url = https://github.com/evernote/evernote-sdk-ios.git
+[submodule "Submodules/weibo_ios_sdk_sso-oauth"]
+	path = Submodules/weibo_ios_sdk_sso-oauth
+	url = git://github.com/mobileresearch/weibo_ios_sdk_sso-oauth.git
