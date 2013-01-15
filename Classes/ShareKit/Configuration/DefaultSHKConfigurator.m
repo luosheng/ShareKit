@@ -240,6 +240,18 @@
     return @"";
 }
 
+- (NSString*)sinaWeiboAppKey {
+	return @"";
+}
+
+- (NSString*)sinaWeiboAppSecret {
+	return @"";
+}
+
+- (NSString*)sinaWeiboRedirectURI {
+	return @"";
+}
+
 /*
  UI Configuration : Basic
  ------------------------

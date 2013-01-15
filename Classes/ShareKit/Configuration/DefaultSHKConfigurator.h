@@ -80,6 +80,9 @@
 - (NSNumber*)readabilityUseXAuth;
 - (NSString*)foursquareV2ClientId;
 - (NSString*)foursquareV2RedirectURI;
+- (NSString*)sinaWeiboAppKey;
+- (NSString*)sinaWeiboAppSecret;
+- (NSString*)sinaWeiboRedirectURI;
 - (NSNumber*)shareMenuAlphabeticalOrder;
 - (NSString*)barStyle;
 - (UIColor*)barTintForView:(UIViewController*)vc;
