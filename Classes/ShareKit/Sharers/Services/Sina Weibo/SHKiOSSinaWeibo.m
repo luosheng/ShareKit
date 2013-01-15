@@ -6,14 +6,14 @@
 //
 //
 
-#import "SHKSinaWeibo.h"
+#import "SHKiOSSinaWeibo.h"
 #import "SHKiOSSharer_Protected.h"
 
-@interface SHKSinaWeibo ()
+@interface SHKiOSSinaWeibo ()
 
 @end
 
-@implementation SHKSinaWeibo
+@implementation SHKiOSSinaWeibo
 
 #pragma mark -
 #pragma mark Configuration : Service Defination
@@ -25,7 +25,7 @@
 
 + (NSString *)sharerId
 {
-	return @"SHKSinaWeibo";
+	return @"SHKiOSSinaWeibo";
 }
 
 + (BOOL)canShareURL

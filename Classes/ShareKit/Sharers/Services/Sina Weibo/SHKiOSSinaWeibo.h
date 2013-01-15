@@ -8,6 +8,6 @@
 
 #import "SHKiOSSharer.h"
 
-@interface SHKSinaWeibo : SHKiOSSharer
+@interface SHKiOSSinaWeibo : SHKiOSSharer
 
 @end
