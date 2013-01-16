@@ -83,6 +83,7 @@
 - (NSString*)sinaWeiboAppKey;
 - (NSString*)sinaWeiboAppSecret;
 - (NSString*)sinaWeiboRedirectURI;
+- (NSNumber*)forcePreIOS6WeiboPosting;
 - (NSNumber*)shareMenuAlphabeticalOrder;
 - (NSString*)barStyle;
 - (UIColor*)barTintForView:(UIViewController*)vc;

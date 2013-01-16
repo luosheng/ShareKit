@@ -252,6 +252,10 @@
 	return @"";
 }
 
+- (NSNumber *)forcePreIOS6WeiboPosting {
+	return @(NO);
+}
+
 /*
  UI Configuration : Basic
  ------------------------

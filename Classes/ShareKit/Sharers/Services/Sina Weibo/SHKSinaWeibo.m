@@ -8,6 +8,7 @@
 
 #import "SHKSinaWeibo.h"
 #import "SHKConfiguration.h"
+#import "SHKiOSSinaWeibo.h"
 
 @interface SHKSinaWeibo ()
 
@@ -61,6 +62,32 @@
 + (BOOL)canShare
 {
 	return YES;
+}
+
+#pragma mark -
+#pragma mark Share API Methods
+
+- (void)share {
+	if ([self socialFrameworkAvailable]) {
+		SHKSharer *iosSharer = [SHKiOSSinaWeibo shareItem:self.item];
+		iosSharer.quiet = self.quiet;
+		iosSharer.shareDelegate = self.shareDelegate;
+		[self.class logout];
+	} else {
+		[super share];
+	}
+}
+
+- (BOOL)socialFrameworkAvailable {
+	if ([SHKCONFIG(forcePreIOS6WeiboPosting) boolValue]) {
+		return NO;
+	}
+	
+	if (NSClassFromString(@"SLComposeViewController")) {
+		return YES;
+	}
+	
+	return NO;
 }
 
 - (BOOL)isAuthorized {
