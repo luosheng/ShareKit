@@ -199,6 +199,18 @@
     return @"app://foursquare";
 }
 
+- (NSString*)sinaWeiboAppKey {
+	return @"1162071981";
+}
+
+- (NSString*)sinaWeiboAppSecret {
+	return @"e13e4bd5380b406d836aa75ef74f32e7";
+}
+
+- (NSString*)sinaWeiboRedirectURI {
+	return @"https://api.weibo.com/oauth2/default.html";
+}
+
 /*
  UI Configuration : Basic
  ------------------------
