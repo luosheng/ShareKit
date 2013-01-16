@@ -7,7 +7,10 @@
 //
 
 #import "SHKSharer.h"
+#import "SinaWeibo.h"
 
-@interface SHKSinaWeibo : SHKSharer
+@interface SHKSinaWeibo : SHKSharer <SinaWeiboDelegate, SinaWeiboRequestDelegate> {
+	SinaWeibo *_sinaWeibo;
+}
 
 @end

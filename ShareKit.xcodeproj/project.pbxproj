@@ -14,7 +14,7 @@
 		04E5ECBE16A54D4D00B6082B /* SinaWeiboConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E5ECB716A54D4D00B6082B /* SinaWeiboConstants.h */; };
 		04E5ECBF16A54D4D00B6082B /* SinaWeiboRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E5ECB816A54D4D00B6082B /* SinaWeiboRequest.h */; };
 		04E5ECC016A54D4D00B6082B /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ECB916A54D4D00B6082B /* SinaWeiboRequest.m */; };
-		04E5ECC316A54DDD00B6082B /* SHKSinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E5ECC116A54DDD00B6082B /* SHKSinaWeibo.h */; };
+		04E5ECC316A54DDD00B6082B /* SHKSinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E5ECC116A54DDD00B6082B /* SHKSinaWeibo.h */; settings = {ATTRIBUTES = (); }; };
 		04E5ECC416A54DDD00B6082B /* SHKSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ECC216A54DDD00B6082B /* SHKSinaWeibo.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
